@@ -1,0 +1,17 @@
+chatbot_type: "dummy"  # Options: "dummy", "api", "lib" (if implemented)
+#dataset_path: "./data/qa_pairs_dummy.csv"
+dataset_path: "./data/chat_history_dummy.csv"
+
+# "dummy", bert-score: "bert", sentence-transformers: "sbert", llm: "llm" (if implemented)
+scorers:
+  - "dummy"
+  - "bert"
+  - "sbert"
+
+# Configuration for BERT-scorer
+bert:
+  lang: "en"  # "de", "en"
+
+# Configuration for SBERT-scorer (sentence-transformers)
+sbert:
+  model_name: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"

@@ -1,0 +1,15 @@
+build
+.pyc
+.ipynb_checkpoints
+.DS_Store
+__pycache__
+.env
+.venv
+.pytest_cache
+.python_packages
+.vscode
+.idea
+set_proxy.ps1
+environment.yml
+notes.txt
+*.log

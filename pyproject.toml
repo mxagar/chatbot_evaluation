@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatbot_evaluation"
+version = "0.1.0"
+description = "A package to evaluate chatbot responses against a dataset."
+authors = [{name = "Mikel Sagardia", email = "mikel.sagardia-erasun@t-systems.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    # This list should be the same as in requirements.in
+    # and pip-tools should be used with requirements.in instead of this field
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "torch",
+    "PyYAML",
+    "pytest",
+    "python-dotenv",
+    "jupyter",
+    "mlflow",
+    "bert-score",
+    "transformers",
+    "scikit-learn",
+    "sentence-transformers",
+    "openai",
+    "pydantic",
+    "autopep8"
+]
+packages = ["chatbot_evaluation"]

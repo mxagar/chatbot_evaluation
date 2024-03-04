@@ -1,0 +1,17 @@
+numpy
+scipy
+pandas
+matplotlib
+torch
+PyYAML
+pytest
+python-dotenv
+jupyter
+mlflow
+bert-score
+transformers
+scikit-learn
+sentence-transformers
+openai
+pydantic
+autopep8

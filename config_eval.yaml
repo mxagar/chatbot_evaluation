@@ -1,0 +1,28 @@
+chatbot_type: "dummy"  # Options: "dummy", "api", "lib" (if implemented)
+#dataset_path: "./data/qa_pairs_dummy.csv"
+dataset_path: "./data/chat_history_dummy.csv"
+
+# Configuration for ChatBotAPI
+api:
+  url: "localhost:8080"
+  token_type: "Bearer"
+
+# "dummy", bert-score: "bert", sentence-transformers: "sbert", llm: "llm" (if implemented)
+scorers:
+  - "dummy"
+  - "bert"
+  - "sbert"
+
+# Configuration for BERT-scorer
+bert:
+  lang: "en"  # "de", "en"
+
+# Configuration for SBERT-scorer (sentence-transformers)
+sbert:
+  model_name: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+# Chatbot parameters, if not retrievable via AbstractChatBot.get_parameters()
+chatbot_params:
+  param_1: "value_1"
+  param_2: "value_2"
+  param_3: "value_3"
