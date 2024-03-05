@@ -5,13 +5,13 @@ dataset_path: "./data/chat_history_dummy.csv"
 # "dummy", bert-score: "bert", sentence-transformers: "sbert", llm: "llm" (if implemented)
 scorers:
   - "dummy"
-  - "bert"
-  - "sbert"
+#  - "bert"
+#  - "sbert"
 
 # Configuration for BERT-scorer
-bert:
-  lang: "en"  # "de", "en"
+#bert:
+#  lang: "en"  # "de", "en"
 
 # Configuration for SBERT-scorer (sentence-transformers)
-sbert:
-  model_name: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+#sbert:
+#  model_name: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
