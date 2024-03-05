@@ -12,6 +12,7 @@ This repository contains a simple chatbot evaluation package which can be used t
   - [Chatbot Integration](#chatbot-integration)
   - [Scorer Integration](#scorer-integration)
   - [Configuration YAML](#configuration-yaml)
+  - [Tests and Contonuous Integration](#tests-and-contonuous-integration)
   - [Further Implementation Notes](#further-implementation-notes)
     - [Metrics](#metrics)
     - [Parameters to Consider](#parameters-to-consider)
@@ -184,6 +185,17 @@ chatbot_params:
 
 The configuration file is loaded in [`evaluation.py`](./chatbot_evaluation/evaluation.py) and its content can be easily extended.
 The values of the configuration file are copied to the results CSV.
+
+## Tests and Contonuous Integration
+
+We can run tests with [pytest](https://docs.pytest.org) from the root folder:
+
+```bash
+cd ... # root folder where tests/ is located
+pytest tests
+```
+
+Additionally, a Github action/workflow is defined in [`.github/workflows/pytest_workflow.yaml`](.github/workflows/pytest_workflow.yaml) which installs the dependencies and the package, and runs the tests.
 
 ## Further Implementation Notes
 
