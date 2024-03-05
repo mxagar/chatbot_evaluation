@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "chatbot_evaluation"
 version = "0.1.0"
 description = "A package to evaluate chatbot responses against a dataset."
-authors = [{name = "Mikel Sagardia", email = "mikel.sagardia-erasun@t-systems.com"}]
+authors = [{name = "Mikel Sagardia", email = "sagardia.mikel@gmail.com"}]
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
@@ -34,4 +34,6 @@ dependencies = [
     "pydantic",
     "autopep8"
 ]
+
+[tool.setuptools]
 packages = ["chatbot_evaluation"]
