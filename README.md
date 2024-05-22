@@ -219,6 +219,7 @@ Additionally, a Github action/workflow is defined in [`.github/workflows/pytest_
 - [Metric: bert_score](https://huggingface.co/spaces/evaluate-metric/bertscore)
 - [OpenAI Prompting guide](https://platform.openai.com/docs/guides/prompt-engineering/strategy-test-changes-systematically)
 - [CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2401.17043)
+- [Ragas: framework that helps you evaluate your Retrieval Augmented Generation (RAG) pipelines](https://docs.ragas.io/en/latest/index.html)
 
 ## Authorship
 
